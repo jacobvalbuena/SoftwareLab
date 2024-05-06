@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #d6d2c4;
+  min-width: 100%;
+  display: flex;
+  font-family: 'DM Sans';
+  font-size: calc(15px + 2vw);
+  line-height: calc(15px + 5vw);
+  align-items: center;
+  color: #bf5700;
+  height: 15vh;
+  border-bottom: 5px solid #333f48;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+}
+.App-title {
+  min-width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 85vh
+}

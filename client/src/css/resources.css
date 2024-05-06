@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+
+
+.resourcesPage {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  min-width: 80%;
+  max-width: 80%;
+  min-height: 80%;
+  background-color: #d6d2c4;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 3%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+.selectionBoxRes {
+
+  min-width: 80%;
+  max-width: 80%;
+  min-height: 60%;
+  align-items: center;
+  width: fit-content;
+  justify-content: space-between;
+  font-family: 'DM Sans';
+
+}
+
+.updateBtns {
+  padding: 2px;
+}

@@ -1,0 +1,5 @@
+include here:
+    a functional component that will render the page and handle the logic (API calls) for each page
+    all functional components here will be given a route in App.js
+
+may use components from the components directory to help build this

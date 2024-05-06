@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+.loginForm {
+    display: flex;
+    flex-direction: column; /* Ensures buttons stack vertically */
+    align-items: center;
+    width: fit-content;
+    min-width: 450px;
+    margin: 0 auto;
+    background-color: #d6d2c4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
+}
+.username,
+.password,
+.submit
+.regster {
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    font-size: calc(4px + 2vmin);
+    margin: 0px;
+    color: #FF8200;
+    box-sizing: border-box;
+}
+
+.error {
+    font-family: 'DM Sans';
+}
+
