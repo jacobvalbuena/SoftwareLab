@@ -6,7 +6,7 @@ class DatabaseManager():
     @classmethod
     def connect(cls):
         try:
-            uri = "mongodb+srv://jisolahn:c8gg30DjhvPDkMD0@cluster0.ojbxo0c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+            uri = ""
             #projectDB = "Projects"
             #resourceDB = "Resources"
             userDB = "Users"
