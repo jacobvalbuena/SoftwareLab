@@ -57,7 +57,7 @@ class JoinProject(Resource):
             required=True,
         )
         args = parser.parse_args()
-        uri = "mongodb+srv://jisolahn:c8gg30DjhvPDkMD0@cluster0.ojbxo0c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        uri = ""
         # Create a new client and connect to the server
         client = MongoClient(uri)
         try:
@@ -93,7 +93,7 @@ class CheckIn(Resource):
             required=True,
         )
         args = parser.parse_args()
-        uri = "mongodb+srv://jisolahn:c8gg30DjhvPDkMD0@cluster0.ojbxo0c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        uri = ""
         # Create a new client and connect to the server
         client = MongoClient(uri)
         try:
